@@ -1,0 +1,16 @@
+:host {
+  display: block;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+// Chart.js con maintainAspectRatio:false necesita un contenedor con altura
+// definida y position:relative para poder redimensionar el canvas.
+.chart-wrap {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
